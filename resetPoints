@@ -1,4 +1,4 @@
-Parse.Cloud.Job("job", function(request, status){
+Parse.Cloud.job("job", function(request, status){
 var Predictions = Parse.Object.extend("Predictions");
 var query = new Parse.Query(Predictions);
 query.find({
